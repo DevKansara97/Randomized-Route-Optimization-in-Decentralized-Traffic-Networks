@@ -9,9 +9,7 @@ We implement a **Randomized A\*** algorithm that introduces controlled randomnes
 ## 📊 Key Features
 
 - Probabilistic Path Selection using:  
-  \[
-  P(P_i) = \frac{e^{-\beta f(P_i)}}{\sum_j e^{-\beta f(P_j)}}
-  \]
+  `P(P_i) = \frac{e^{-\beta f(P_i)}}{\sum_j e^{-\beta f(P_j)}}`
 - Distance heuristics:  
   - Euclidean  
   - Manhattan  
